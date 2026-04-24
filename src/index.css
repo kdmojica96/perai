@@ -42,10 +42,37 @@ header p {
   margin-bottom: 24px;
 }
 
+.form-header {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  margin-bottom: 10px;
+}
+
 .add-form h2 {
   font-size: 1.1rem;
-  margin-bottom: 16px;
   color: #2d3748;
+}
+
+.progress-badge {
+  font-size: 0.8rem;
+  color: #718096;
+  font-weight: 600;
+}
+
+.progress-bar {
+  height: 6px;
+  background: #e2e8f0;
+  border-radius: 4px;
+  margin-bottom: 16px;
+  overflow: hidden;
+}
+
+.progress-fill {
+  height: 100%;
+  background: #48bb78;
+  border-radius: 4px;
+  transition: width 0.3s ease;
 }
 
 .form-row {

@@ -33,7 +33,7 @@ export default function App() {
         <p>Track which rooms you visit and when</p>
       </header>
       <main>
-        <AddVisit onAdd={addVisit} />
+        <AddVisit visits={visits} onAdd={addVisit} />
         <VisitList visits={visits} onDelete={deleteVisit} />
       </main>
     </div>
